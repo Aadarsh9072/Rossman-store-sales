@@ -1,0 +1,12 @@
+# Ignore everything in the root directory
+/*
+
+# Except for the .gitignore file itself
+!.gitignore
+
+# Allow the parent folder, but ignore its internal contents by default
+!supervised_learning/
+supervised_learning/*
+
+# Finally, un-ignore the specific folder you actually want to track
+!supervised_learning/rossmann-store-sales/
